@@ -751,11 +751,17 @@ color:var(--primery-text-color);
     top: 0;
     left: 0;
     right: 0;
+    font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+padding: 63px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: translateY(100%);
-    transition: transform 500ms linear;
+    transition: transform 250ms linear;
 
 }
 .link-img:hover .text-discription{
@@ -812,8 +818,10 @@ color:var(--primery-text-color);
     right: 10px;
     width: 30px;
     height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.1); 
+     fill:#FFFFFF;
     border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+
   }
   
   .is-hidden {
